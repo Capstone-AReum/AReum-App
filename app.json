@@ -1,4 +1,14 @@
 {
   "name": "AReumApp",
-  "displayName": "AReumApp"
+  "displayName": "AReumApp",
+  "plugins": [
+    [
+      "@reactvision/react-viro",
+      {
+        "android": {
+        	"xRMode": "AR"
+        }
+      }
+    ]
+  ]
 }
